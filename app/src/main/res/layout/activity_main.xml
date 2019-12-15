@@ -16,12 +16,23 @@
         android:textColor="#000000"
         ></TextView>
     <EditText
+        android:id="@+id/idname"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="tài khoản"></EditText>
     <EditText
+        android:id="@+id/idpass"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="mật khẩu"></EditText>
-
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btndn"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đăng Nhập"></Button>
+    </RelativeLayout>
 </LinearLayout>
