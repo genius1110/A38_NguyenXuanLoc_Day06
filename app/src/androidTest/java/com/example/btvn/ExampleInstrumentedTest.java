@@ -1,4 +1,4 @@
-package com.example.a38_nguyenxuanloc_day06;
+package com.example.btvn;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.example.a38_nguyenxuanloc_day06", appContext.getPackageName());
+        assertEquals("com.example.btvn", appContext.getPackageName());
     }
 }

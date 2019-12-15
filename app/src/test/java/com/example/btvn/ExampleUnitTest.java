@@ -1,4 +1,4 @@
-package com.example.a38_nguyenxuanloc_day06;
+package com.example.btvn;
 
 import org.junit.Test;
 

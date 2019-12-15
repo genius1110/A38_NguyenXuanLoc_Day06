@@ -12,30 +12,16 @@
         android:layout_height="wrap_content"
         android:text="Đăng Nhập"
         android:gravity="center"
-        android:textColor="#000000"
         android:textSize="40sp"
-        android:layout_margin="5dp"></TextView>
+        android:textColor="#000000"
+        ></TextView>
     <EditText
-        android:id="@+id/idname"
-        android:layout_margin="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Tài Khoản"></EditText>
+        android:hint="tài khoản"></EditText>
     <EditText
-        android:id="@+id/idpass"
-        android:layout_margin="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Mật Khẩu"></EditText>
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <Button
-            android:id="@+id/btndn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Đăng Nhập"
-            android:layout_centerInParent="true"></Button>
-    </RelativeLayout>
+        android:hint="mật khẩu"></EditText>
 
 </LinearLayout>
